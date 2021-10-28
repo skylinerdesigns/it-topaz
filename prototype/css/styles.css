@@ -1,0 +1,12 @@
+table, td, th{
+    border: 1px solid black;
+}
+
+td{
+    text-align: center;
+}
+
+.img1{
+    height: 20%;
+    width: 20%;
+}
