@@ -7,5 +7,5 @@
 */
 
 body {
-    background-image: "assets/img/space1.jpg";
+    background-image: url("assets/img/space1.jpg");
 }
