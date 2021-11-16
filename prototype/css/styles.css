@@ -1,12 +1,19 @@
-table, td, th{
+table,
+td,
+th {
     border: 1px solid black;
 }
 
-td{
+td {
     text-align: center;
 }
 
-.img1{
+.img1 {
     height: 20%;
     width: 20%;
+}
+
+dt {
+    font-size: 1.2rem;
+    font-weight: bold;
 }
