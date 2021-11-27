@@ -25,3 +25,19 @@
 p {
     display: inline;
 }
+
+.formsection {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 5px 5px;
+    border-bottom: 1px #000 solid;
+}
+
+.submit {
+    padding-top: 10px;
+}
+
+.error {
+    color: red;
+    padding-left: 5px;
+}
