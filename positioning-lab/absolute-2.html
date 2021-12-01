@@ -32,25 +32,42 @@
             width: 800px;
             margin-right: auto;
             margin-left: auto;
+            position: relative;
+        }
+
+        #wrapper>div {
+            height: 150px;
+            width: 150px;
+            position: absolute;
         }
         
         #red {
+            top: 0;
+            left: 0;
             background-color: #900;
         }
         
         #green {
+            top: 0;
+            right: 0;
             background-color: #090;
         }
         
         #blue {
+            bottom: 0;
+            left: 0;
             background-color: #00F;
         }
         
         #purple {
+            bottom: 0;
+            right: 0;
             background-color: #63C;
         }
         
-        #footer {
+        #wrapper #footer {
+            position: relative;
+            margin: 300px auto;
             background-color: #666;
         }
         
